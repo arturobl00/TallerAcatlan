@@ -1,0 +1,39 @@
+1)Instalar python en especifico esta version
+https://www.python.org/downloads/release/python-367/
+Install the required build-tools (some might already be installed on your system).
+
+$ sudo apt-get update
+$ sudo apt-get install build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev
+
+wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz
+tar xzvf Python-3.6.0.tgz
+cd Python-3.6.0/
+./configure
+make -j4
+sudo make install
+
+2)instalar desde la consola cmd ejecutada como administrador
+pip install opencv-contrib-python
+
+3)Comprovar las versiones instaladas
+python 3.6
+cv2 4.4.0 para eso ponemos un codigo simple
+entramos al cmd ponemos python y damos enter
+despues dentro ponemos import cv2 y enter
+escribimos cv2.__version__ y enter
+
+4)Instalación de tesseract para vision de caracteres
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe
+Manda un mensaje de precaución en windows damos mas opc y aceptamos
+Para la instalación hay que agregar el idioma spanish, spanish old y matematico
+
+5)instalar desde pip pytesseract desde consola cmd como administrador
+pip install pytesseract
+6)Nota cuando se ocupe hay que poner la ruta del tesseract
+
+7)pip install mediapipe para mascarillas
+
+
+Entorno virtual -> Entorno aislado de instalaciones para
+crear entorno de pyton con paquetes independientes
+Opencv Snippets

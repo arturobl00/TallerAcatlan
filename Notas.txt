@@ -1,0 +1,34 @@
+https://www.python.org/downloads/windows/
+
+https://pypi.org/project/opencv-contrib-python/
+
+Consola
+https://pypi.org/project/imutils/
+
+Consola
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe
+
+Software
+https://mediapipe.dev/
+En la consola como admin pip freeze
+pip freeze
+pip install mediapipe
+
+import sys
+print(sys.version)
+
+Vesion 3.9.1
+
+Buena 3.6.7
+
+
+4)Instalación de tesseract para vision de caracteres en windows
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe
+Manda un mensaje de precaución en windows damos mas opc y aceptamos
+Para la instalación hay que agregar el idioma spanish, spanish old y matematico
+
+5)instalar en python pip pytesseract desde consola cmd como administrador
+pip install pytesseract
+
+6)Nota cuando se ocupe hay que poner la ruta del tesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
